@@ -8,15 +8,13 @@
   },
   "author": "me",
   "license": "ISC",
-  "dependencies": {
-    
+  "dependencies": {    
     "deep-email-validator": "^0.1.21",
     "deep-email-validator-fix": "^0.1.22",
-    "dotenv": "^8.2.0",
-    
+    "dotenv": "^8.2.0",    
     "email-smtp-verificator": "^1.0.0",
     "email-verify": "^0.2.1",
-    "express": "^4.17.1",
+    "express": "^4.17.1"
     
   }
 }
