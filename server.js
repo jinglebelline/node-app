@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
 app.get('/test/:email',async (req,res)=>{
   let email=req.params.email;
   
-const verify=devf({port:26})
+const verify=devf({port:25})
     let result= await verify(email)
     res.send(result)
 
