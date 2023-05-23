@@ -1,5 +1,5 @@
 const net = require('net');
-module.exports= async  (email) {
+module.exports= async  (email) =>{
     const domain = email.split('@')[1];
 
     // Connect to the SMTP server
