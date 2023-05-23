@@ -16,7 +16,7 @@ module.exports= async  (email) =>{
 
     // Close the connection
     socket.end();
-
+    console.log(data.toString());
     // Check the server's response
     if (data.toString().startsWith('250')) {
         return true; // Email address exists
